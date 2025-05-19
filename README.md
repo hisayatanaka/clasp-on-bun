@@ -2,7 +2,7 @@
 
 ## Setup
 
-### モジュールインストール
+### インストール
 `bun install`
 
 ### Google Apps Script API を ON に
