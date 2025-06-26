@@ -1,0 +1,31 @@
+# 依存関係
+node_modules/
+
+# ビルド成果物
+dist/
+*.min.js
+
+# テスト関連成果物
+coverage/
+test-results/
+
+# 設定ファイル
+.clasp.json
+.clasprc.json
+
+# ドキュメント
+*.md
+docs/
+
+# ログファイル
+*.log
+
+# OSファイル
+.DS_Store
+Thumbs.db
+
+# IDEファイル
+.vscode/
+.idea/
+*.swp
+*.swo

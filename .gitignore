@@ -1,0 +1,102 @@
+# ================================================================= #
+# General
+# ================================================================= #
+
+# OS generated files
+.DS_Store
+Thumbs.db
+._*
+
+# Log files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+# .env.example のようなテンプレートはバージョン管理に含めるべきです
+.env
+.env.*
+!.env.example
+
+# Build output
+build/
+dist/
+out/
+.next/
+.nuxt/
+
+# Temporary directories
+tmp/
+temp/
+
+# Editor directories and files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# ================================================================= #
+# Node.js / npm / yarn / pnpm
+# ================================================================= #
+
+# Dependencies
+node_modules/
+
+# Lockfiles of other package managers
+# プロジェクトで使用するパッケージマネージャのロックファイル以外は無視します
+# 例: pnpm を使う場合
+package-lock.json
+yarn.lock
+
+# Crash reports
+npm-debug.log*
+
+# ================================================================= #
+# TypeScript
+# ================================================================= #
+
+# Compiled JavaScript files
+#*.js
+*.js.map
+*.mjs
+*.cjs
+
+# TypeScript build info file
+tsconfig.tsbuildinfo
+*.tsbuildinfo
+
+# Type declaration files (if generated)
+# プロジェクトで共有しない自動生成された型定義ファイル
+*.d.ts
+*.d.ts.map
+
+# ================================================================= #
+# Vim
+# ================================================================= #
+
+# Swap files
+*.swp
+*.swo
+*.swn
+
+# Backup files
+*~
+
+# Undo files
+*.un~
+
+# Session files
+Session.vim
+.vimrc.local
+
+# ================================================================= #
+# Testing
+# ================================================================= #
+
+# Test coverage reports
+coverage/
+.nyc_output/
+test-results/
